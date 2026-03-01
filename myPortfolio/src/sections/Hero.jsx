@@ -31,7 +31,7 @@ export const Hero = () => {
             {[...Array(30)].map((_, i) =>(
                 <div className="absolute w-1.5 h-1.5 rounded-full opacity-60"
                 style={{
-                    backgroundColor: "#20B2A6",
+                    backgroundColor: "#7c3aed",
                     left: `${Math.random() * 100}%`,
                     top: `${Math.random() * 100}%`,
                     animation: `drift-slow ${15 + Math.random() * 20}s ease-in-out infinite`,
@@ -65,7 +65,7 @@ export const Hero = () => {
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                             Hi, I'm Harold. An Aspiring software engineer with a background
-                            in system and AI. I build full-stack applications and love tackling 
+                            in Systems and AI. I build full-stack applications and love tackling 
                             problems at every level of the stack.
                         </p>
                     </div>
