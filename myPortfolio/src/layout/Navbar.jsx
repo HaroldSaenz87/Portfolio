@@ -74,10 +74,10 @@ export const Navbar = () => {
                 <div className="container mx-auto px-6 py-6 flex flex-col gap-4">
 
                     {navLink.map((link, index) => (
-                        <a href={link.href} key={index} className="text-lg text-muted-foreground hover:text-foreground py-2">{link.label}</a>
+                        <a href={link.href} key={index} onClick={() => setIsMobileMenuActive(false)} className="text-lg text-muted-foreground hover:text-foreground py-2">{link.label}</a>
                     ))}
 
-                    <Button>Contact Me</Button>
+                    <Button onClick={() => setIsMobileMenuActive(false)}>Contact Me</Button>
 
                 </div>
 

@@ -64,7 +64,7 @@ export const Hero = () => {
 
                         </h1>
                         <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                            Hi, I'm Harold. An Aspiring software engineer with a background
+                            Hi, I'm Harold. An aspiring software engineer with a background
                             in Systems and AI. I build full-stack applications and love tackling 
                             problems at every level of the stack.
                         </p>
