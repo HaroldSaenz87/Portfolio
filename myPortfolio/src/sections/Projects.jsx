@@ -11,10 +11,17 @@ const projects = [
     },
     {
         title:"Binary Tree Visualizer",
-        description: "An interactive Binary Search Tree (BST) visualizer that allows users to perform real-time insertions and deletions. The application dynamically calculates node positions and renders the tree structure using React and SVG, providing a clear visual representation of data structure algorithms.",
+        description: "A simple interactive Binary Search Tree (BST) visualizer that allows users to perform real-time insertions and deletions. The application dynamically calculates node positions and renders the tree structure using React and SVG, providing a clear visual representation of data structure algorithms.",
         image: "/BinaryTreePic.jpg",
         tags: ["JavaScript", "React", "SVG", "CSS", "HTML5"],
         github: "https://github.com/HaroldSaenz87/DSA"
+    },
+    {
+        title:"Portfolio",
+        description: "A personal portfolio built with React and TailwindCSS showcasing my projects, skills, and experience as a full stack software engineer.",
+        image: "/portfolioPic.jpg",
+        tags: ["React", "TailwindCSS", "JavaScript", "Vite"],
+        github: "https://github.com/HaroldSaenz87/Portfolio"
     }
 ]
 
@@ -29,11 +36,11 @@ export const Projects = () => {
                 <div className="text-center mx-auto max-w-3xl mb-16">
                     <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">Featured Work</span>
                     <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-                        something catchy
-                        <span className="italic font-normal text-white"> here in this location</span>
+                        Code I've
+                        <span className="italic font-normal text-white"> brought to life</span>
                     </h2>
                     <p className="text-muted-foreground animate-fade-in animation-delay-200">
-                        A selection of my recent work blah blah blah
+                        Some of the things I've built while learning, exploring, and solving problems.
                     </p>
                 </div>
 
