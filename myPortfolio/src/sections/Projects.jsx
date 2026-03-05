@@ -71,7 +71,7 @@ export const Projects = () => {
                                 <p className="text-muted-foreground text-sm">{project.description}</p>
                                 <div className="flex flex-wrap gap-2">
                                     {project.tags.map((tag, tagIdx) => (
-                                        <span className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50 text-muted-foreground hover:border-primary/50 hover:text-primary transition-all duration-300">{tag}</span>
+                                        <span key={tagIdx} className="px-4 py-1.5 rounded-full bg-surface text-xs font-medium border border-border/50 text-muted-foreground hover:border-primary/50 hover:text-primary transition-all duration-300">{tag}</span>
                                     ))}
                                 </div>
                             </div>
@@ -80,10 +80,12 @@ export const Projects = () => {
                 </div>
 
                 <div className="text-center mt-12 animate-fade-in animation-delay-500">
-                    <AnimatedButton>
-                        View All Projects
-                        <ArrowUpRight className="w-5 h-5"/>
-                    </AnimatedButton>
+                    <a href="https://github.com/HaroldSaenz87" target="_blank" rel="noopener noreferrer">
+                        <AnimatedButton >
+                            View All Projects
+                            <ArrowUpRight className="w-5 h-5" />
+                        </AnimatedButton>
+                    </a>
                 </div>
             </div>
         </section>
