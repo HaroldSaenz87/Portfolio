@@ -71,9 +71,15 @@ export const Hero = () => {
                         </div>
 
                         <div className="flex flex-wrap items-center gap-4 animate-fade-in animation-delay-300">
-                            <Button size="lg" className="cursor-pointer">
-                                Contact Me <ArrowRight className="w-5 h-5"/>
-                            </Button>
+
+                            <a href="#contact">
+
+                                <Button size="lg" className="cursor-pointer">
+                                    Contact Me <ArrowRight className="w-5 h-5"/>
+                                </Button>
+
+                            </a>
+                            
 
                             <AnimatedButton>
 
@@ -92,7 +98,7 @@ export const Hero = () => {
                             
                                 
                             ].map((social, idx) => (
-                                <a key={idx} href={social.href} className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
+                                <a key={idx} href={social.href} target="_blank" rel="noopener noreferrer" className="p-2 rounded-full glass hover:bg-primary/10 hover:text-primary transition-all duration-300">
                                     {<social.icon className="w-5 h-5"/>}
                                 </a>
                             ))}
