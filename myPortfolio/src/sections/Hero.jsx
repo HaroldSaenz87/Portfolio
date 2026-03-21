@@ -5,11 +5,13 @@ import { AnimatedButton } from "../components/AnimatedButton";
 const mySkills = [
     "React",
     "JavaScript",
+    "TypeScript",
     "Node.js",
     "C",
     "Java",
     "TailwindCSS",
     "MySQL",
+    "MongoDB",
     "PHP",
     "Git",
     "GitHub",
