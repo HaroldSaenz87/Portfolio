@@ -113,7 +113,7 @@ export const Hero = () => {
                         <div className="relative max-w-md mx-auto">
                             
                             <div className="relative glass rounded-3xl p-2 glow-border">
-                                <img src="/ProPic.png" alt="Harold Saenz" className="w-full aspect-4/5 object-cover rounded-2xl"/>
+                                <img src="/ProfPic.png" alt="Harold Saenz" className="w-full aspect-4/5 object-cover rounded-2xl"/>
 
                                 <div className="absolute -bottom-4 -right-4 glass rounded-xl px-4 py-3 animate-float">
                                     <div className="flex items-center gap-3">

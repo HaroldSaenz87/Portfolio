@@ -13,15 +13,15 @@ const projects = [
         title:"Binary Tree Visualizer",
         description: "A simple interactive Binary Search Tree (BST) visualizer that allows users to perform real-time insertions and deletions. The application dynamically calculates node positions and renders the tree structure using React and SVG, providing a clear visual representation of data structure algorithms.",
         image: "/BinaryTreePic.jpg",
-        tags: ["JavaScript", "React", "SVG", "CSS", "HTML5"],
+        tags: ["JavaScript", "React", "CSS", "HTML5"],
         github: "https://github.com/HaroldSaenz87/DSA"
     },
     {
-        title:"Portfolio",
-        description: "A personal portfolio built with React and TailwindCSS showcasing my projects, skills, and experience as a full stack software engineer.",
-        image: "/portfolioPic.jpg",
-        tags: ["React", "TailwindCSS", "JavaScript", "Vite"],
-        github: "https://github.com/HaroldSaenz87/Portfolio"
+        title:"LesChic",
+        description: "A full stack wardrobe management system designed with a cinematic aesthetic. Featuring GSAP powered reveals and enables users to digitize their closets with filtering and fluid responsive interface.",
+        image: "/leschicPic.jpg",
+        tags: ["React", "TypeScript", "GSAP", "Tailwind", "Node.js", "MongoDB"],
+        github: "https://github.com/HaroldSaenz87/LesChic"
     }
 ]
 
